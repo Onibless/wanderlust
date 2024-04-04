@@ -2,10 +2,10 @@
 
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_wanderlust_work', label: 'How wanderlust Work?' },
-  { href: "/services", key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: "/app/contactus", key: 'contact_us', label: 'Contact Us' },
+  { href: "/how_wanderlust_work", key: 'how_wanderlust_work', label: 'How wanderlust Work?' },
+  { href: "/services", key: "services", label: "Services" },
+  { href: "/pricing", key: "pricing", label: "Pricing" },
+  { href: "/contactus", key: "contact_us", label: "Contact Us" },
 ];
 
 // CAMP SECTION
