@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 
-const LoginPage: React.FC = () => {
+const Login: React.FC = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const router = useRouter();
@@ -44,4 +44,4 @@ const LoginPage: React.FC = () => {
     );
 };
 
-export default LoginPage;
+export default Login;
