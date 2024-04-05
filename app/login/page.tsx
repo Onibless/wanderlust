@@ -1,18 +1,11 @@
-import Camp from "@/components/Camp";
-import Features from "@/components/Features";
-import GetApp from "@/components/GetApp";
-import Guide from "@/components/Guide";
-import Hero from "@/components/Hero";
 
+import Login from "@/components/login";
 export default function LoginPage() {
   return (
     <>
-      <h1 className="text-center font-black">Login PAGE</h1>;
-      <Hero />
-      <Camp />
-      <Guide />
-      <Features />
-      <GetApp />
+      {/* <h1 className="text-center font-black">Login PAGE</h1>; */}
+      
+      <Login/>
     </>
   );
 }

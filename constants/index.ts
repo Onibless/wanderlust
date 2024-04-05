@@ -85,3 +85,5 @@ export const SOCIALS = {
     '/wordpress.svg',
   ],
 };
+
+
